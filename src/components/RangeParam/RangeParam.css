@@ -1,0 +1,33 @@
+#rangeParam {
+  padding-bottom: 20px;
+  margin-right: 10%;
+}
+
+#rangeParam input {
+  margin-right: 10px;
+  color: black;
+}
+
+.rangeParamTitle {
+  margin-bottom: 10px;
+}
+
+.from {
+  margin-bottom: 10px;
+}
+
+.from > label {
+  margin-right: 10px;
+}
+
+.to > label {
+  margin-right: 10px;
+}
+
+.rangeParam__title {
+  display: flex;
+}
+
+.rangeParam__title > h2 {
+  /* margin-left: 10px; */
+}

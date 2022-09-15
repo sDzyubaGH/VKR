@@ -1,0 +1,50 @@
+.results {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    background-color: rgba(63, 63, 149, 0.43);
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+.results__barrier-row {
+    display: grid;
+    grid-template-columns: 5% 21.25% 21.25% 21.25% 21.25% 10%;
+}
+
+.cell {
+    border: 1px solid #fff;
+    /* border-radius: 12px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.headers {
+    display: grid;
+    grid-template-columns: 5% 21.25% 21.25% 21.25% 21.25% 10%;
+}
+
+/* .results__more-info > button {
+    padding: 8px;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform ease .2s;
+}
+
+.results__more-info > button:hover {
+    transform: scale(1.1);
+} */
+
+.results__amount {
+    padding: 10px;
+    /* border: #fff 1px solid;
+    border-radius: 10px; */
+    display: flex;
+    justify-content: end;
+}

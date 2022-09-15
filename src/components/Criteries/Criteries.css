@@ -1,0 +1,179 @@
+.param-selector {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.param-range {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+.paramsBlock:not(:last-child) {
+  border-bottom: .5px solid #fff;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.priroty-definition {
+  color: rgb(156, 156, 156);
+}
+
+.criteries {
+  background-color: rgba(63, 63, 149, 0.43);
+  /* background-color: #fff; */
+  padding: 25px;
+  border-radius: 25px;
+  /* margin-bottom: 20px; */
+}
+
+/* .wrapper {
+  display: flex;
+} */
+
+
+.labels {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.criteries {
+  display: flex;
+  flex-direction: column;
+}
+
+.param {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.criterion {
+  padding: 10px 0;
+  /* border-right: 1px solid #fff; */
+}
+
+.criterion:not(:last-child) {
+  /* border-bottom: 1px solid #fff; */
+}
+
+.criteries__priority {
+  display: flex;
+  align-items: center;
+}
+
+.criteries__priority:not(:last-child) {
+}
+
+.param:not(:last-child) {
+  border-bottom: 1px solid #fff;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.search__btn {
+  width: 100%;
+  background-color: rgba(63, 63, 149, 0.43);
+  border-radius: 12px;
+  border: none;
+  height: 50px;
+  font-size: larger;
+  transition: background-color .2s ease;
+}
+
+.search__btn:hover {
+  /* box-shadow: ; */
+  background-color: #aeaefd;
+  cursor: pointer;
+  /* transform: scale(1.1); */
+}
+
+.radioBtn {
+  margin: 10px 0;
+}
+
+.radioBtn > input {
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  top: 4px;
+  margin-right: 10px;
+}
+
+.radioBtn > label {
+  font-size: large;
+  font: bold;
+}
+
+.manufs > input {
+  margin-right: 10px;
+}
+
+.manufs {
+  padding: 10px 5px;
+  font-size: large;
+}
+
+.manufs:hover {
+  border: #aeaefd 1px solid;
+  border-radius: 15px;
+  margin: -1px 0;
+}
+
+.modelType {
+  font-size: large;
+}
+
+.modelType > h2 {
+ margin-bottom: 10px;
+}
+
+.modelType > div {
+  padding: 10px 5px;
+}
+
+.modelType input {
+  margin-right: 10px;
+}
+
+.modelType > div:hover {
+  border: #aeaefd 1px solid;
+  border-radius: 15px;
+  margin: -1px 0;
+}
+
+.UUSChB, .enUdaraChB {
+  padding: 10px 5px;
+}
+
+.UUSChB > input, .enUdaraChB > input {
+  margin-right: 10px;
+}
+
+.UUSChB > label, .enUdaraChB >label {
+  font-size: large;
+}
+
+#material {
+  margin: 10px;
+  /* padding: 20px; */
+}
+
+.mMark {
+  padding: 10px 5px;
+}
+
+.mMark > input {
+  margin-right: 10px;
+}
+
+.mMark > label {
+  font-size: large;
+}
+
+#material {
+  /* width: 100px ; */
+}

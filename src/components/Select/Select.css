@@ -1,0 +1,23 @@
+.select {
+  margin: 10px 0;
+}
+
+.select > select {
+  margin-top: 10px;
+}
+
+.select > select > option {
+  color: black;
+}
+
+.select__title {
+  display: flex;
+}
+
+.select__title > h2 {
+  /* margin-left: 10px; */
+}
+
+.select__title > input {
+  width: 40px;
+}

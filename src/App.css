@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:inherit;
+  color: #fff;
+}
+
+select {
+  color: #000;
+  padding: 5px;
+  border-radius: 12px;
+  cursor: pointer;
+  /* text-align: center; */
+
+  /*-moz-appearance: none;*/
+  transition: 0.2s;
+}
+
+select:hover {
+  background-color: #aeaefd;
+  transform: scale(1.1);
+}
+
+option {
+  cursor: pointer;
+}
+
+input {
+  border: 0;
+  max-width: 70px;
+  padding: 5px;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+input[type=range] {
+  position: relative;
+  top: 10px;
+  min-width: 120px;
+}
+
+.App {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background: linear-gradient(135deg, rgb(119, 0, 255), rgb(0, 255, 149));
+  /* animation: gradient 5s ease-in-out infinite; */
+  background-size: 200% 200%;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+}
+/* @keyframes gradient {
+  0% {
+    background-position: 0 20%;
+  }
+  20% {
+    background-position: 20% 40%;
+  }
+  40% {
+    background-position: 40% 60%;
+  }
+  60% {
+    background-position: 60% 80%;
+  }
+  80% {
+    background-position: 80% 100%;
+  }
+} */
+
+.container {
+  /* height: 100%;
+  padding-bottom: 90px; */
+
+  background-color: inherit;
+  width: 80%;
+  margin: 0 auto;
+  /* flex: 1 0; */
+}
+
+footer {
+  flex: 0 0;
+  margin-top: 20px;
+}

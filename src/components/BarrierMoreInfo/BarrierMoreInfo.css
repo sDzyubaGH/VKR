@@ -1,0 +1,78 @@
+.barrier-info {
+    flex: 1 0;
+}
+
+.back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back__btn {
+    border: 1px solid #fff;
+    outline: none;
+    background-color: inherit;
+    border-radius: 15px;
+    width: 80%;
+    height: 30px;
+    margin: 20px;
+    transition: all .2s ease;
+}
+
+.back__btn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    color: #000;
+    background-color: #aeaefd;
+}
+
+.barrier-info__mainInfo-param {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.param-cell {
+    /* border: 1px solid #fff; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    /* margin-left: 20px; */
+    border: #fff 1px solid;
+}
+
+.barrier-info__mainInfo-title, .barrier-info__elements-title {
+    margin-bottom: 10px;
+}
+
+.barrier-info__elements-title {
+    margin-top: 30px;
+}
+
+.barrier-info__elements {
+    /* border-bottom: 2px #fff dotted; */
+    padding-bottom: 20px;
+}
+
+.barrier-info__element-param {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.barrier-info__elements h2 {
+    margin: 20px 0 10px 0;
+}
+
+.barrier-info__elements-container, .barrier-info__mainInfo-container {
+    background-color: rgba(63, 63, 149, 0.43);
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.fileParam {
+    text-decoration: underline 1px solid;
+}
+
+.fileParam:hover {
+    cursor: pointer;
+}

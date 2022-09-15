@@ -1,0 +1,15 @@
+.results__more-info button {
+    border: 1px solid #fff;
+    background-color: inherit;
+    border-radius: 15px;
+    outline: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+
+.results__more-info button:hover {
+    transform: scale(1.1);
+    background-color: #aeaefd;
+    color: #000;
+}
